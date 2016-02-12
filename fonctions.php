@@ -31,7 +31,7 @@ function recupAnnonces()
                 if ($div->getAttribute('class') == "detail") {
                     $title = trim($div->getElementsByTagName('h2')->item(0)->nodeValue);
                     if ($div->getElementsByTagName('div')->item(1)->getAttribute('class') == "placement") {
-                        $location = trim($div->getElementsByTagName('div')->item(1)->nodeValue);
+                        $lieu = trim($div->getElementsByTagName('div')->item(1)->nodeValue);
                     }
                     //teste si le prix est définis dans l'annonce, sinon met un prix de 0.
 
@@ -44,9 +44,9 @@ function recupAnnonces()
                     }
                     $i++;
                     $title = $link->real_escape_string($title);
-                    $location = $link->real_escape_string($location);
+                    $lieu = $link->real_escape_string($lieu);
                     $price = $link->real_escape_string($price);
-                    $query = "INSERT INTO animals(`titre`,`lieu`,`prix`) VALUES ('" . $title . "','" . $location . "','" . $price . "')";
+                    $query = "INSERT INTO animals(`titre`,`lieu`,`prix`) VALUES ('" . $title . "','" . $lieu . "','" . $price . "')";
                     mysqli_query($link, $query);
                 }
             } else {
@@ -103,7 +103,7 @@ function afficheTab()
     echo "Titre";
     echo "</td>";
     echo "<td>";
-    echo "Location";
+    echo "Lieu";
     echo "</td>";
     echo "<td>";
     echo "Prix (en €)";
