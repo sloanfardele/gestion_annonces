@@ -18,4 +18,4 @@ Pour les trier différemment, cliquez sur l'un des attributs du tableau pour tri
 Note du développeur
 -------------------
 Tous les fichiers sont écris par moi-même sauf sorttable.js que j'ai pris sur le site <a>http://www.journaldunet.com/developpeur/tutoriel/dht/041208-javascript-table-tri.shtml</a>.
-Je me suis aidé d'internet pour certaines fonctionnalités notamment : la documentation <a href="www.php.net">PHP</a> et le site <a href="www.openclassrooms.com">openclassrooms</a>.
+Je me suis aidé d'internet pour certaines fonctionnalités notamment : la documentation <a href="http://www.php.net">PHP</a> et le site <a href="http://www.openclassrooms.com">openclassrooms</a>.
