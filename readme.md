@@ -1,9 +1,9 @@
 Gestion des annonces
 ===================
 
-1-Installation
-2-Utilisation
-3-Note du développeur
+1. Installation
+2. Utilisation
+3. Note du développeur
 
 Installation
 ------------
