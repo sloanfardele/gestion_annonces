@@ -30,7 +30,6 @@ afficheTab();
 <br>
 <p class="credits">Sloan Fardèle | IUT Bourg en Bresse | 2e année | Exercice pour le stage @SanteVet</p>
 </body>
-test
 </html>
 
 
