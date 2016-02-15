@@ -93,24 +93,27 @@ function afficheTab()
         echo 'Impossible d\'exécuter la requête : ' . mysqli_error();
         exit();
     }
-    echo "<table class=\"sortable\" id=\"youhou\">";
-    echo "<thead>";
-    echo "<tr>";
-    echo "<td>";
-    echo "ID";
-    echo "</td>";
-    echo "<td>";
-    echo "Titre";
-    echo "</td>";
-    echo "<td>";
-    echo "Lieu";
-    echo "</td>";
-    echo "<td>";
-    echo "Prix (en €)";
-    echo "</td>";
-    echo "</tr>";
-    echo "</thead>";
-    echo "<tbody>";
+    ?>
+    <table class=\"sortable\" id=\"youhou\">
+    <thead>
+    <tr>
+    <td>
+    ID
+    </td>
+    <td>
+    Titre
+    </td>
+    <td>
+    Lieu
+    </td>
+    <td>
+    Prix (en €)
+    </td>
+    </tr>
+    </thead>
+    <tbody>
+
+    <?php
     while ($row = mysqli_fetch_row($result)) {
         echo "<tr>";
         echo "<td>";
